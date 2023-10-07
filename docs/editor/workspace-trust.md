@@ -281,8 +281,27 @@ Bring up Workspace Trust editor (**Workspaces: Manage Workspace Trust** from the
 
 If you don't see the **Don't Trust** button in the Workspace Trust dialog, the folder's trust level may be inherited from a parent folder. Review the **Trusted Folders & Workspaces** list to check if a parent folder has enabled Workspace Trust.
 
-Some workflows such as connecting to a [GitHub Codespace](/docs/remote/codespaces.md) or [attaching to a running Docker container](/docs/remote/attach-container.md) are automatically trusted since these are managed environments to which you should already have a high level of trust.
+Some workflows such as connecting to a [GitHub Codespace](/docs/remote/codespaces.md) or [attaching to a running Docker container][
+  def] are automatically trusted since these are managed environments to which you should already have a high level of trust.<!-- IMPORTANT: Please be sure to remove any private information before submitting. -->
+
+Please attach the log file located at c:\Users\a2277\AppData\Roaming\Code\logs\20231007T094235\window1\exthost\ms-dotnettools.vscode-dotnet-runtime\DotNetAcquisition-ms-dotnettools.vscode-dotnet-runtime-1696643705348.txt. Note that this file may contain personal data.
+
+**Extension Version:** 1.0.0
+
 
 ### What does Workspace Trust protect against?
 
 Many features of VS Code allow third-party tools and extensions to run automatically, such as linting or format on save, or when you do certain operations like compiling code or debugging. An unethical person could craft an innocent looking project that would run malicious code without your knowledge and harm your local machine. Workspace Trust provides an extra layer of security by trying to prevent code execution while you are evaluating the safety and integrity of unfamiliar source code.
+
+
+[def]: /docs/remote/attach-container.md<!-- IMPORTANT: Please be sure to remove any private information before submitting. -->
+
+Please attach the log file located at c:\Users\a2277\AppData\Roaming\Code\logs\20231007T094235\window1\exthost\ms-dotnettools.vscode-dotnet-runtime\DotNetAcquisition-ms-dotnettools.vscode-dotnet-runtime-1696643705348.txt. Note that this file may contain personal data.
+
+**Extension Version:** 1.0.0
+<!-- IMPORTANT: Please be sure to remove any private information before submitting. -->
+
+Please attach the log file located at c:\Users\a2277\AppData\Roaming\Code\logs\20231007T094235\window1\exthost\ms-dotnettools.vscode-dotnet-runtime\DotNetAcquisition-ms-dotnettools.vscode-dotnet-runtime-1696643705348.txt. Note that this file may contain personal data.
+
+**Extension Version:** 1.0.0
+
